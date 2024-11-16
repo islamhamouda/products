@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>productes</title>
+  </head>
+  <body>
+    <div class="container pt-5">
+      <div class="form-floating mb-3">
+        <input
+          type="text"
+          required
+          class="form-control"
+          id="name"
+          placeholder="name:"
+        />
+        <label for="name">name</label>
+      </div>
+
+      <div class="form-floating mb-3">
+        <input
+          type="number"
+          required
+          class="form-control"
+          id="price"
+          placeholder="price:"
+        />
+        <label for="price">price</label>
+      </div>
+
+      <div class="form-floating mb-3">
+        <input
+          type="text"
+          required
+          class="form-control"
+          id="categories"
+          placeholder="categories:"
+        />
+        <label for="categories">categories</label>
+      </div>
+
+      <div class="form-floating mb-3">
+        <input
+          type="file"
+          required
+          accept="imges/*"
+          class="form-control"
+          id="img"
+          placeholder="img:"
+        />
+        <label for="img">img</label>
+      </div>
+
+      <div class="form-floating mb-3">
+        <textarea class="form-control" required id="discreption"></textarea>
+      </div>
+
+      <button
+        onclick="storagee()"
+        id="bttn"
+        class="btn btn-primary w-100 "
+        
+      >
+        Add
+      </button>
+        
+      <div id="row-dis" class="row">
+       
+      </div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
